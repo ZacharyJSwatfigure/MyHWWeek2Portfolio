@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    background-color: black;
+}
+body {
+    font-family: Arial, times, serif;
+    margin: 0;
+}
+
+:root{
+    --maincolor: rgb(93, 150, 112);
+    --backroundcolor: rgb(232, 233, 217);
+}
+
+.main-header{
+    /* main header "my portfolio" */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: var(--maincolor);
+    width: 100%;
+    height: 200px;
+    border-color: black;
+    background-image: url(./assets/oneandzero.jpg);
+}
+#pagename {
+    font-family: fantasy;
+    border-radius: 100%;
+    font-size:50px;
+    text-decoration: underline;
+}
+#name {
+    margin-top:0px;
+    font-size:25px;
+    border-radius: 100%;
+}
+
+.header-image {
+    border: 10px solid var(--maincolor);
+    margin-top: 15px;
+    width: 260px;
+    height: 275px;
+}
+
+.about-me-links-section{
+    display: flex;
+    justify-content: flex-start;
+    
+
+
+}
+
+
+
+#navheader{
+    font-size: 35px;
+    text-decoration: underline;
+    color: var(--maincolor);
+    background: black;
+    display: wrap;
+    justify-content: space-between;
+    list-style: none;
+} 
+.about-me-links{
+    color: var(--maincolor);
+    background-color: black;
+    font-size: 32px;
+    width: 150%;
+    height: 245px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 15px 25px 0 15px;
+}
+
+#bulletpoints {
+    list-style-type: disc;
+}
+
+#spaceholderblack1 {
+    color: black;
+    font-size: 20px;
+}
+
+#spaceholderblack2 {
+    color: black;
+    font-size: 4px;
+}
+
+/* next section ABOUT ME */
+
+.aboutmesection{
+    display: flex;
+    flex-direction: row;
+    color: var(--maincolor);
+}
+
+.aboutmeheader{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    font-size: 30px;
+    color: var(--maincolor);
+    font-family: fantasy;
+    text-decoration: underline;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#aboutmeinfo{
+    font-family:  Arial, times, serif;
+    text-decoration: none;
+    display: flex;
+    padding-left: 50px;
+    color: var(--maincolor);
+    width: 350px;
+    height: 250px
+}
+
+#listofthings{
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;
+}
+
+#spaceholderblack3 {
+    color: black;
+    font-size: 20px;
+}
+
+#spaceholderblack4 {
+    color: black;
+    font-size: 10px;
+}
+
+.weouthere{
+    display: flex;
+    margin-top: 55px;
+    width: 350px;
+    height: 275px;
+    padding: 15px;
+}
+
+/* projects section */
+
+.projectssection{
+    display: flex;
+    flex-direction: row;
+    color: var(--maincolor);
+    background-color: black;
+}
+
+.projectsheader{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    font-size: 30px;
+    color: var(--maincolor);
+    font-family: fantasy;
+    text-decoration: underline;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.my-image1{
+    border: 10px solid var(--maincolor);
+    margin-left: 30px;
+    width: 500px;
+    height:350px;
+    background-color: white;
+}
+
+.stackme{
+    display: flex;
+    flex-direction: row;
+}
+
+.my-image2{
+    border: 10px solid var(--maincolor);
+    margin-left: 40px;
+    width: 235px;
+    height: 175px;
+    background-color: white;
+}
+
+.my-image3{
+    border: 10px solid var(--maincolor);
+    margin-left: 40px;
+    width: 235px;
+    height: 175px;
+    background-color: white;
+}
+
+.my-image4{
+    border: 10px solid var(--maincolor);
+    width: 235px;
+    height: 175px;
+    background-color: white;
+}
+
+.my-image5{
+    border: 10px solid var(--maincolor);
+    width: 235px;
+    height: 175px;
+    background-color: white;
+}
+
+
+/* contact information */
+
+.listedcontactinfo{
+    display= inline;
+    font-size: 25px;
+    color: var(--maincolor);
+}
+
+/* text over project images */
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    font-size: 20px;
+    text-decoration: bold;
+    background: none;
+    color: var(--maincolor);
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+
